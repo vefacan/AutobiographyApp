@@ -22,20 +22,18 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnGaleri"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="157dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="160dp"
         android:background="@drawable/button_shape"
-        android:text="Galeri"
         android:textAllCaps="false"
         android:theme="@style/Theme.VefaCanBeytorun_Odev3.ButtonStyle"
+        android:text="Galeri"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtAge" />
+        app:layout_constraintTop_toBottomOf="@+id/btnHakkimda" />
 
     <TextView
         android:id="@+id/txtName"
@@ -43,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/specialfont"
-        android:text="Vefa Can Beytorun!"
+        android:text="Vefa Can Beytorun"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -66,5 +64,59 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <Button
+        android:id="@+id/btnHakkimda"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:theme="@style/Theme.VefaCanBeytorun_Odev3.ButtonStyle"
+        android:text="Hakkımda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAge" />
+
+    <Button
+        android:id="@+id/btnIletisim"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:theme="@style/Theme.VefaCanBeytorun_Odev3.ButtonStyle"
+        android:text="İletişim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGaleri" />
+
+    <Button
+        android:id="@+id/btnBlog"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:theme="@style/Theme.VefaCanBeytorun_Odev3.ButtonStyle"
+        android:text="Blog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIletisim" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/specialfont"
+        android:text="designed by: Vefa Can"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,4 +1,4 @@
-package com.example.vefacanbeytorun_odev3
+package com.example.vefacanbeytorun_odev3.onboarding
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.vefacanbeytorun_odev3.R
 
 class OnboardingItemsAdapter(private val onboardingItems:List<OnboardingItem>) : RecyclerView.Adapter<OnboardingItemsAdapter.OnboardingItemViewHolder>(){
 

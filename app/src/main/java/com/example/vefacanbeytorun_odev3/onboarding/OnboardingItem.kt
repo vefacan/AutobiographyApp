@@ -1,4 +1,4 @@
-package com.example.vefacanbeytorun_odev3
+package com.example.vefacanbeytorun_odev3.onboarding
 
 data class OnboardingItem(
         val onboardingImage:Int,
