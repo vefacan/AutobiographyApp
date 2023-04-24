@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,35 +15,35 @@
         android:theme="@style/Theme.VefaCanBeytorun_Odev3"
         tools:targetApi="31">
         <activity
-            android:name=".Blog"
+            android:name=".autobio.blog.Blog"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Communication"
+            android:name=".autobio.communication.Communication"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Gallery"
+            android:name=".autobio.gallery.Gallery"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".AboutMe"
+            android:name=".autobio.aboutme.AboutMe"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".HomePageActivity"
+            android:name=".autobio.HomePageActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

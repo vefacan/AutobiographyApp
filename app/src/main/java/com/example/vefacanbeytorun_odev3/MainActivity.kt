@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import com.example.vefacanbeytorun_odev3.autobio.HomePageActivity
 import com.example.vefacanbeytorun_odev3.onboarding.OnboardingItem
 import com.example.vefacanbeytorun_odev3.onboarding.OnboardingItemsAdapter
 import com.google.android.material.button.MaterialButton
