@@ -33,16 +33,17 @@ class MainActivity : AppCompatActivity() {
             listOf(
                 OnboardingItem(
                     R.drawable.first_image,
-                    "Hoşgeldiniz",
+                    "Hoşgeldiniz!",
                     "Lütfen ilerlemek için kaydırın."
                 ), OnboardingItem(
                     R.drawable.second_image,
-                    "Uygulama Hakkında.",
-                    "Bu uygulama Turkcell Geleceği Yazanlar Kotlin BootCamp'inin 3. Ödevidir."
+                    "Uygulama Hakkında",
+                    "Bu uygulama Turkcell Geleceği Yazanlar Kotlin BootCamp'inin 3. Ödevidir." +
+                            " Ödevimizin konusu kendimizi tanıttığımız bir uygulama yapmak."
                 ), OnboardingItem(
                     R.drawable.third_image,
-                    "Uygulama İçeriği",
-                    "Bu uygulama benim biyografi uygulamamdır."
+                    "Teşekkürler",
+                    "Uygulamamı indirdiğiniz için teşekkür ederim. Eğer isterseniz uygulamamıza geçelim."
                 )
             )
         )

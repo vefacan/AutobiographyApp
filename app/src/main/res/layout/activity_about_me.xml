@@ -4,6 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bej"
     tools:context=".autobio.aboutme.AboutMe">
 
+    <TextView
+        android:id="@+id/txtAboutMeText"
+        android:layout_width="336dp"
+        android:layout_height="518dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/opensans"
+        android:text="Hakkımda Text"
+        android:textColor="@color/custom_color_text_primary"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAboutMeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/specialfont"
+        android:text="@string/hakkimda"
+        android:textColor="@color/custom_color_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

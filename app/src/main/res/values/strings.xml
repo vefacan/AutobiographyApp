@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">VefaCanBeytorun_Odev3</string>
+    <string name="developer_name">Vefa Can Beytorun</string>
+    <string name="developer_age">25</string>
+    <string name="btnHakkimda">Hakkımda</string>
+    <string name="btnGaleri">Galeri</string>
+    <string name="btnIletisim">İletişim</string>
+    <string name="btnBlog">Blog</string>
+    <string name="designed_by_vefa_can">designed by: Vefa Can</string>
+    <string name="hakkimda">HAKKIMDA</string>
 </resources>
