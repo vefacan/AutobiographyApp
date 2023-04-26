@@ -21,7 +21,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA_g5-tg6BoUeokRt-CW6QgdyG919J0W68" />
+            android:value="AIzaSyC5wA5bKDT6zHITsGbuhRtFpxFdKfki14M" />
 
         <activity
             android:name=".autobio.blog.Blog"
@@ -31,7 +31,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".autobio.communication.Communication"
+            android:name=".autobio.communication.Contact"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

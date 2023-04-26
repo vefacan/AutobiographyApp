@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.example.vefacanbeytorun_odev3.R
 import com.example.vefacanbeytorun_odev3.autobio.aboutme.AboutMe
 import com.example.vefacanbeytorun_odev3.autobio.blog.Blog
-import com.example.vefacanbeytorun_odev3.autobio.communication.Communication
+import com.example.vefacanbeytorun_odev3.autobio.communication.Contact
 import com.example.vefacanbeytorun_odev3.autobio.gallery.Gallery
 import kotlinx.android.synthetic.main.activity_home_page.*
 
@@ -24,7 +24,7 @@ class HomePageActivity : AppCompatActivity() {
         }
 
         btnIletisim.setOnClickListener {
-            startActivity(Intent(this, Communication::class.java))
+            startActivity(Intent(this, Contact::class.java))
         }
 
         btnBlog.setOnClickListener {

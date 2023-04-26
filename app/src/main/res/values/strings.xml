@@ -8,4 +8,12 @@
     <string name="btnBlog">Blog</string>
     <string name="designed_by_vefa_can">designed by: Vefa Can</string>
     <string name="hakkimda">HAKKIMDA</string>
+    <string name="instagram"><u>vefa.can</u></string>
+    <string name="twitter"><u>Vefacaan</u></string>
+    <string name="linkedin"><u>vefacanbeytorun</u></string>
+    <string name="medium"><u>vefacanbeytorun</u></string>
+    <string name="tel">Tel:</string>
+    <string name="telNo">+90 553 213 19 29</string>
+    <string name="mail">Mail:</string>
+    <string name="mailadress">vefa.can.97@gmail.com</string>
 </resources>
