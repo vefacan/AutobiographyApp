@@ -16,7 +16,5 @@ class Gallery : AppCompatActivity() {
 
         val customAdapter = GalleryAdapter(this,detailService.photoServices())
         custom_listview.adapter = customAdapter
-
-
     }
 }

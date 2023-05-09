@@ -27,8 +27,6 @@ class GalleryAdapter(private val context: Activity, private val list: List<Photo
         gallery_detail.text = user.photoDetail
 
 
-
-
         return rootView
     }
 
