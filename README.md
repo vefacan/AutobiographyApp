@@ -25,7 +25,20 @@ This project is an autobiography application. This is the 3rd homework I prepare
    
    
 # Images from the Project
-  
-  
-  
+   
+   
+<a href="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/1.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/1.png" width="200" style="max-width:100%;"></a>
+   
+<a href="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/2.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/2.png" width="200" style="max-width:100%;"></a>
+   
+<a href="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/3.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/3.png" width="200" style="max-width:100%;"></a>
 
+   <p>
+     
+<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/4.png" width="200" style="max-width:100%;"></a>
+     
+     
+  
