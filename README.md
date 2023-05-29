@@ -8,10 +8,10 @@ This project is an autobiography application. This is the 3rd homework I prepare
   
 | Pages in the app
 | --------- |
-|  Onboarding |
+|  Onboarding  |
 |  Home Page   |
-|    About Me   | 
-|  Gallery |
-|  Contact   |
-|   Blog  | 
+|  About Me    | 
+|  Gallery     |
+|  Contact     |
+|  Blog        | 
 
